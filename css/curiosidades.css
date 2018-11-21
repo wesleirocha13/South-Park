@@ -1,0 +1,12 @@
+
+h4 {
+	border-left: 6px solid red;
+    background-color: lightgrey;
+	background-image: linear-gradient(to right, #B5B5B5 , white);
+}
+
+h2 {
+	
+	padding-top:10px;
+	text-align:center;
+}

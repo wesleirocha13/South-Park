@@ -1,0 +1,81 @@
+
+.radio {
+	
+	display:block; 	/* Botão radio */
+    position: relative;
+    padding-left: 35px;
+    padding-right:35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio input {
+	
+    position: absolute;	/* Ocultar o botão de opção padrão do navegador */
+    opacity: 0;
+    cursor: pointer;
+}
+
+.marcado {
+	
+    position: absolute;		/* Cria um novo botão radio customizado*/
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 25%;
+}
+
+.radio:hover input ~ .marcado {
+	
+    background-color: grey;	/* COloca fundo cinza quando passa o mouse */
+}
+
+.radio input:checked ~ .marcado {
+	
+    background-color: red;	/* Adicionar fundo vermelho quando o botão estivar marcado */
+}
+
+.marcado:after {
+	
+    content: "";
+    position: absolute; /* Cria uma bolinha */
+    display: none;
+}
+
+.radio input:checked ~ .marcado:after {
+	
+    display: block;	/* Mostra a bolinha quando marcado*/
+}
+
+.radio .marcado:after {
+	
+ 	top: 9px;	/* Estilize o indicador */
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+	
+#imagem img{
+
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+}	
+
+#texto1{
+	
+	text-align:center;
+}
+
+#texto2{
+	
+	text-align:center;
+}

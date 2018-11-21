@@ -1,0 +1,33 @@
+
+#box{ 
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+	border: 1px solid white;
+    padding: 10px;
+	background-image: linear-gradient(white, #D3D3D3);
+}
+
+#box img{	 
+	padding-right:50px;
+	height: 200px !important;
+	width: 190px !important;
+}
+	
+#alinhar img{	
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 240px !important;
+	width: 185px !important;
+}	
+
+h5 {
+	text-align:center;
+}
+
+#alinhar p {
+	padding-bottom:40px;
+	text-align: center;
+}	
+	

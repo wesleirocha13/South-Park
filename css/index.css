@@ -1,0 +1,15 @@
+
+h3 {
+	padding-top:15px;
+	text-decoration: underline;	
+}
+
+.fotoCorpo {
+	float: left;
+	padding-right:5px;
+}	
+
+.bloco {
+	border-bottom: 2px solid #CDC9C9;
+	overflow: auto;	
+}
